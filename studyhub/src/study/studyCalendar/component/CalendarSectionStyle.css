@@ -1,0 +1,47 @@
+.fc-day-sat .fc-daygrid-day-top {
+    color: #0015ff;
+    /* 주말 제목 색상 설정 */
+}
+
+.fc-day-sun .fc-daygrid-day-top {
+    color: #ff4500;
+    /* 주말 제목 색상 설정 */
+}
+
+.fc {
+    flex: auto;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.fc-more-link {
+    pointer-events: none;
+}
+
+.fc-event.fc-event-draggable, .fc-event[href] {
+    cursor: default;
+}
+
+.fc-daygrid-day-number {
+    cursor: default;
+}
+
+.fc {
+    min-width: 700px;
+}
+
+.fc-hamburger-button {
+    font-size: 15pt !important;
+    font-weight: 900 !important;
+    height: 41px;
+    width: 47px;
+    line-height: 6px !important;
+    display: none !important;
+}
+
+@media (max-width: 1550px) {
+    .fc-hamburger-button {
+        display: inline !important;
+    }
+}

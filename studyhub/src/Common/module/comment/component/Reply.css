@@ -1,0 +1,9 @@
+.reply-div {
+    width: '100%';
+}
+
+.reply-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5em;
+}

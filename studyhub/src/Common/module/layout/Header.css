@@ -1,0 +1,111 @@
+.header {
+    width: 100%;
+    background-color: #4C5B5A;
+    height: 60px;
+    min-width: 768px;
+    display: flex;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.header-left {
+    width: 23.5%;
+    min-width: 212px;
+    background-color: #4C5B5A;
+    display: flex;
+    justify-content: center;
+}
+
+.button-logo {
+    background-image: url("../../../../public/StudyHub.png");
+    width: 212px;
+    min-width: 212px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-center {
+    width: 53%;
+    background-color: #4C5B5A;
+    display: flex;
+    justify-content: center;
+}
+
+.header-center-content {
+    background-color: #4C5B5A;
+    width: 69%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-nav {
+    height: 38px;
+    width: 95px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: #4C5B5A;
+    cursor: pointer;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1223px) {
+    .button-nav {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .button-nav {
+        font-size: 13px;
+    }
+}
+
+.header-right {
+    width: 22.9%;
+    background-color: #4C5B5A;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-right-content {
+    width: 229px;
+    background-color: #4C5B5A;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.button-login,
+.button-signup {
+    border: none;
+    background: #4C5B5A;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.button-divider {
+    border: none;
+    background: #4C5B5A;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    cursor: default;
+}

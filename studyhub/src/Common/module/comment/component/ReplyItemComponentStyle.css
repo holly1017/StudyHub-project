@@ -1,0 +1,11 @@
+.horizontal_rule_reply {
+    border: none; /* 기본 경계 제거 */
+    height: 0.6px; /* 선의 두께 */
+    background-color: #DBDBDB; /* 원하는 색상 */
+    width: 100%;
+}
+
+.table_data {
+    width: 403px;
+    padding: 0px 0px 0px 10px;
+}
